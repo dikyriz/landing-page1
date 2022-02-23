@@ -3,6 +3,7 @@
   height: 100vh;
 }
 
+
 .nav {
   background-color: #000;
   text-align: right;
@@ -26,11 +27,20 @@
   color: #fff;
 }
 
+.section-home {
+  background-image: url(assets/background-homes.jpg);
+  background-size: cover;
+  height: 91vh;
+  color: #fff;
+  padding-left: 6vh;
+}
+
 .home-title {
   font-family: 'Montserrat';
   font-size: 70px;
   font-weight: 900;
-  margin-bottom: 0;
+  margin: 0;
+  padding-top: 25vh;
 }
 
 .home-title-child {
@@ -42,6 +52,7 @@
   font-family: 'Poppins';
   font-size: 28px;
   margin-bottom: 20px;
+  font-weight: 200;
 }
 
 .home-title-child2 {
@@ -77,7 +88,21 @@
   color: white;
 }
 
+
 .btn-portofolio a {
   text-decoration: none;
   color: #0F65E5;
+}
+
+.btn-contact:hover {
+  background: #5D8BF4;
+  border: 2px solid #5D8BF4;
+}
+
+.btn-portofolio:hover {
+  background: #0F65E5;
+}
+
+.btn-portofolio a:hover {
+  color: #fff;
 }
