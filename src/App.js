@@ -17,6 +17,7 @@ function App() {
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
       </Helmet>
         <nav className='nav'>
+          <p className='nav-logo'>LOGO</p>
           <Link to="/" className='nav-item'>Home</Link>
           <Link to="/about" className='nav-item'>About</Link>
           <Link to="/portofolio" className='nav-item'>Portofolio</Link>

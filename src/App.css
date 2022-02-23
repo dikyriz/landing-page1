@@ -1,5 +1,6 @@
 .app {
-  width: 415;
+  width: 100vw;
+  margin: 0 auto;
   height: 100vh;
 }
 
@@ -8,10 +9,11 @@
   background-color: #000;
   text-align: right;
   margin-top: 0;
-  padding: 3vh;
+  padding: 25px 0;
   font-family: 'Poppins';
   font-size: small;
   font-weight: 600;
+  position: relative;
 }
 
 .nav-item {
@@ -27,12 +29,21 @@
   color: #fff;
 }
 
-.section-home {
-  background-image: url(assets/background-homes.jpg);
-  background-size: cover;
-  height: 91vh;
+.nav-logo {
   color: #fff;
-  padding-left: 6vh;
+  float: left;
+  margin: 0;
+  font-size: 15px;
+  padding-left: 40px;
+}
+
+.section-home {
+  max-height: 100em;
+  color: #fff;
+  padding-left: 40px;
+  background-image: url(./assets/image/background-homes.jpg);
+  background-size: cover;
+  padding-bottom: 2em;
 }
 
 .home-title {
@@ -40,7 +51,7 @@
   font-size: 70px;
   font-weight: 900;
   margin: 0;
-  padding-top: 25vh;
+  padding-top: 2em;
 }
 
 .home-title-child {
@@ -105,4 +116,69 @@
 
 .btn-portofolio a:hover {
   color: #fff;
+}
+
+.home-sosmed {
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  padding-top: 3em;
+}
+
+
+.section-about {
+  margin: 0;
+  padding: 30px 6em; 
+}
+
+.about-item-header {
+  float: right;
+}
+
+.about-title {
+  margin: 0;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 600;
+  padding-right: 13em;
+  padding-top: 1em;
+}
+
+.about-description {
+  font-family: 'Poppins';
+  color: #fff;
+  width: 28em;
+  line-height: 42px;
+  font-size: 22px;
+}
+
+.about-description-child {
+  display: flex;
+  padding-top: 2em;
+  letter-spacing: 0.3px;
+}
+
+.about-item {
+  margin: 0;
+  color: #fff;
+  font-family: 'Poppins';
+  display: flex;
+}
+
+.about-item-title {
+  margin: 0;
+  font-size: 68px;
+  flex: 1 1 0;
+  letter-spacing: 3px;
+  padding-top: 1em;
+}
+
+
+.about-item-description {
+  display: flex;
+  margin: 0;
+  font-size: 24px;
+  width: 12px;
+  font-weight: 200;
 }
