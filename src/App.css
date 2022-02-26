@@ -421,6 +421,18 @@
   color: #fff;
 }
 
+.pricing-title {
+
+}
+
+.pricing-description {
+
+}
+
+.pricing-description-child {
+  display: flex;
+}
+
 .arrow-pricing {
   padding-left: 1em;
 }
