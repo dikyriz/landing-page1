@@ -422,15 +422,17 @@
 }
 
 .pricing-title {
-
+text-align: center;
 }
 
 .pricing-description {
+  text-align: center;
 
 }
 
 .pricing-description-child {
   display: flex;
+  flex-direction: column;
 }
 
 .arrow-pricing {
