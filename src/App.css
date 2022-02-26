@@ -422,10 +422,29 @@
 }
 
 .arrow-pricing {
-
+  padding-left: 1em;
 }
 
-.arrow-pricing a {
+.btn-contact-pricing {
   background-color: #0F65E5;
+  border: 2px solid #0F65E5;
 }
+
+.btn-contact-pricing a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-order {
+  background-color: #fff;
+  border: 2px solid #0F65E5;
+  margin-left: 1em;
+}
+
+.btn-order a {
+  text-decoration: none;
+  color: #0F65E5;
+}
+
+
 
