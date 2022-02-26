@@ -1,6 +1,6 @@
 export default function Pricing () {
     return (
-        <section>
+        <section className="section-pricing">
             <h1>pricing</h1>
         </section>
     );
