@@ -8,8 +8,10 @@ export default function Pricing () {
             product branding ?<span className="pricing-description-child">Confused where to do
             it. Trust us to build your website.</span> 
             </p>
-            <button className="btn btn-contact-pricing"><Link to="/">Contact Me<span className="arrow-pricing">&#8722;&gt;</span></Link></button>
-            <button className="btn btn-order"><Link to="/">Order Now<span className="arrow-pricing">&#8722;&gt;</span></Link></button>
+            <div className="button">
+                <button className="btn btn-contact-pricing"><Link to="/">Contact Me<span className="arrow-pricing">&#8722;&gt;</span></Link></button>
+                <button className="btn btn-order"><Link to="/">Order Now<span className="arrow-pricing">&#8722;&gt;</span></Link></button>
+            </div>                
         </section>
     );
 }
