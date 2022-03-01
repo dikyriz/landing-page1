@@ -478,9 +478,23 @@ font-size: 32px;
   color: #fff;
 }
 
+.header-blog {
+  text-align: center;
+}
+
+.blog-title {
+  font-size: 32px;
+  font-family: 'Montserrat';
+}
+
+.blog-description {
+  font-size: 22px;
+  font-family: 'Poppins';
+}
+
 .card-1-blog {
   width: 330px;
-  height: 500px;
+  height: 420px;
   background-color: #fff;
   color: #000;
   border-radius: 10px;
@@ -495,7 +509,7 @@ font-size: 32px;
 }
 
 .card-title-blog {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bolder;
   margin: 0 15px 0 15px;
 }
@@ -504,6 +518,8 @@ font-size: 32px;
   font-size: 16px;
   font-weight: lighter;
   margin: 15px 15px 0 15px;
+  line-height: 2em;
+  word-spacing: 2px;
 }
 
 .container-blog {
