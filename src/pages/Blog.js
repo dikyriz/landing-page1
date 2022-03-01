@@ -11,8 +11,8 @@ export default function Blog () {
                 <div className="card-1-blog">
                     <img src={CardOneBlog} alt="card-1-blog" className="img-blog"/>
                     <div className="container-blog">
-                    <h4>Stages of Making a Vi..</h4>
-                    <p>Lorem dolor sit amet, consectetur 
+                    <h4 className="card-title">Stages of Making a Vi..</h4>
+                    <p className="card-description">Lorem dolor sit amet, consectetur 
                     adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna 
                     aliqua ....
