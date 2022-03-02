@@ -87,7 +87,8 @@
   margin-left: 15px;
   background-color: #fff;
   border: 2px solid #0F65E5;
-  cursor: pointer;
+  color: #0F65E5;
+  text-decoration: none;
 }
 
 .arrow {
@@ -100,19 +101,15 @@
   color: white;
 }
 
-
-.btn-portofolio a {
-  text-decoration: none;
-  color: #0F65E5;
-}
-
 .btn-contact:hover {
   background: #5D8BF4;
   border: 2px solid #5D8BF4;
 }
 
 .btn-portofolio:hover {
-  background: #0F65E5;
+  background: #5D8BF4;
+  border: 2px solid #5D8BF4;
+  color: #fff;
 }
 
 .btn-portofolio a:hover {
