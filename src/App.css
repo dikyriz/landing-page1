@@ -476,6 +476,9 @@ font-size: 32px;
 
 .section-blog {
   color: #fff;
+  background-color: #000;
+  min-height: 570px;
+  padding-top: 1em;
 }
 
 .header-blog {
@@ -499,6 +502,12 @@ font-size: 32px;
   color: #000;
   border-radius: 10px;
   font-family: 'Poppins';
+  float: left;
+  margin-right: 1em;
+}
+
+.card-1-blog:last-child{
+  margin-right: 0;
 }
 
 .img-blog {
@@ -526,3 +535,7 @@ font-size: 32px;
   margin: 10px;
 }
 
+.card-blog {
+  margin: auto;
+  width: fit-content;
+}
