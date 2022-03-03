@@ -28,7 +28,7 @@ export default function Portofolio () {
                         <h4 className="card-title">Barn Fashion</h4>
                         <p className="card-description">UI Design</p>
                     </div>
-                    <button className="btn-card"><Link to="/carddetail">Read More<span className="arrow-card">&#8722;&gt;</span></Link></button>
+                    <Link to="/carddetail" className="btn-card">Read More<span className="arrow-card">&#8722;&gt;</span></Link>
                 </div>
                 </li>
                 <li className="card-child">
