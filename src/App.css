@@ -70,6 +70,11 @@
   display: flex;
 }
 
+.btn-home {
+  padding-top: 1em;
+  margin-top: 2em;
+}
+
 .btn {
   font-family: 'Poppins';
   font-size: 13px;
@@ -98,11 +103,6 @@
   font-weight: 900;
 }
 
-.btn-contact a {
-  text-decoration: none;
-  color: white;
-}
-
 .btn-contact:hover {
   background: #5D8BF4;
   border: 2px solid #5D8BF4;
@@ -111,10 +111,6 @@
 .btn-portofolio:hover {
   background: #5D8BF4;
   border: 2px solid #5D8BF4;
-  color: #fff;
-}
-
-.btn-portofolio a:hover {
   color: #fff;
 }
 
