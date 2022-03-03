@@ -277,11 +277,13 @@
   width: 9.5em;
   float: right;
   margin-top: 1em;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
 }
 
 .btn-card a{
-  text-decoration: none;
-  color: #fff;
+  
 }
 
 .arrow-card {
