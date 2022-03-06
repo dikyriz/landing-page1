@@ -11,30 +11,28 @@ import {Helmet} from 'react-helmet';
 
 function App() {
   return (
-    <div className="app">
-      <Helmet>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'/>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-      </Helmet>
-        <nav className='nav'>
-          <p className='nav-logo'>LOGO</p>
-          <Link to="/" className='nav-item'>Home</Link>
-          <Link to="/about" className='nav-item'>About</Link>
-          <Link to="/portofolio" className='nav-item'>Portofolio</Link>
-          <Link to="/services" className='nav-item'>Services</Link>
-          <Link to="/pricing" className='nav-item'>Pricing</Link>
-          <Link to="/blog" className='nav-item'>Blog</Link>
-        </nav>
-      
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='about' element={<About/>}/>
-          <Route path='portofolio' element={<Portofolio/>}/>
-          <Route path='services' element={<Services/>}/>
-          <Route path='pricing' element={<Pricing/>}/>
-          <Route path='blog' element={<Blog/>}/>
-        </Routes>
-    </div>
+    <>
+      <div className="app">
+          <nav className='nav'>
+            <p className='nav-logo'>LOGO</p>
+            <Link to="/" className='nav-item'>Home</Link>
+            <Link to="/about" className='nav-item'>About</Link>
+            <Link to="/portofolio" className='nav-item'>Portofolio</Link>
+            <Link to="/services" className='nav-item'>Services</Link>
+            <Link to="/pricing" className='nav-item'>Pricing</Link>
+            <Link to="/blog" className='nav-item'>Blog</Link>
+          </nav>
+        
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='about' element={<About/>}/>
+            <Route path='portofolio' element={<Portofolio/>}/>
+            <Route path='services' element={<Services/>}/>
+            <Route path='pricing' element={<Pricing/>}/>
+            <Route path='blog' element={<Blog/>}/>
+          </Routes>
+      </div>
+    </>
   );
 }
 
