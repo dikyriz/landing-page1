@@ -15,6 +15,7 @@
   font-weight: 600;
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 
 .nav-item {
@@ -131,8 +132,9 @@
 
 
 .section-about {
-  margin: 0;
+  margin: 1em 0 0 0;
   padding: 30px 6em; 
+  height: 580px;
 }
 
 .about-item-header {
@@ -189,7 +191,8 @@
 
 .section-portofolio {
   color: #fff;
-  padding: 4em 4em 4em 3em;
+  padding: 0 3em 0 3em;
+  height: 580px;
 }
 
 .portofolio-title {
@@ -345,6 +348,8 @@
 
 .section-services {
   color: #fff;
+  margin: 0;
+  height: 580px;
 }
 
 .services-title {
