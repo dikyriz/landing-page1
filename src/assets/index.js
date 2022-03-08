@@ -6,5 +6,17 @@ import CardThree from './image/card-3.jpg';
 import CardOneBlog from './image/card-1-blog.jpg';
 import CardTwoBlog from './image/card-2-blog.jpg';
 import CardThreeBlog from './image/card-3-blog.jpg';
+import ClientOne from './image/client/client01.jpg';
+import ClientTwo from './image/client/client02.jpg'; 
 
-export {ImageBackground, IconIg, CardOne, CardTwo, CardThree, CardOneBlog, CardTwoBlog, CardThreeBlog};
+export {
+    ImageBackground, 
+    IconIg, 
+    CardOne, 
+    CardTwo, 
+    CardThree, 
+    CardOneBlog, 
+    CardTwoBlog, 
+    CardThreeBlog,
+    ClientOne,
+    ClientTwo};
