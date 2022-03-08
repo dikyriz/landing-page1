@@ -14,7 +14,11 @@ export default function Header() {
                     <Link to= '/portofolio' className = "btn btn-portofolio">Portofolio<span className = "arrow" > &#8722;&gt;</span></Link>
                 </div>
             </div>
-            <p className= "home-sosmed">Dribble | Github | Instagram </p>
+            <p className= "home-sosmed">
+            <i className="fa-brands fa-dribbble icons-header"></i>&#124; 
+            <i className="fa-brands fa-github icons-header"></i>&#124; 
+            <i className="fa-brands fa-instagram icons-header"></i> 
+            </p>
         </section>
     );
 }
