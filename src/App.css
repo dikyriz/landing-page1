@@ -49,6 +49,8 @@
 
 .section-header {
   color: #fff;
+  position: relative;
+  height: 580px;
 }
 
 .header-items {
@@ -124,15 +126,25 @@
 }
 
 .home-sosmed {
-  text-align: right;
+  position: absolute;
   margin: 0;
-  padding-right: 40px;
-  padding-top: 3em;
+  right: 1em;
+  bottom: 5px; 
 }
 
+.icons-header {
+  padding: 0 1em;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.icons-header:first-child{
+  padding-left: 0;
+}
 
 .section-about {
-  margin: 1em 0 0 0;
+  background-color: #110E0E;
+  margin: 0;
   padding: 30px 6em; 
   height: 580px;
 }
@@ -190,6 +202,7 @@
 }
 
 .section-portofolio {
+  background-color: #110E0E;
   color: #fff;
   padding: 0 3em 0 3em;
   height: 580px;
@@ -347,6 +360,7 @@
 }
 
 .section-services {
+  background-color: #110E0E;
   color: #fff;
   margin: 0;
   height: 580px;
@@ -356,6 +370,7 @@
   font-family: 'Montserrat';
   font-size: 32px;
   text-align: center;
+  margin: 0;
 }
 
 .services-description {
@@ -431,8 +446,9 @@
 .section-pricing {
   color: #fff;
   text-align: center;
-  padding: 6em 0 11em 0;
+  padding: 9em 0 6em 0;
   background-color: #000;
+  height: 580px;
 }
 
 .pricing-title {
@@ -488,7 +504,7 @@ font-size: 32px;
 .section-blog {
   color: #fff;
   background-color: #000;
-  min-height: 570px;
+  height: 650px;
   padding-top: 1em;
 }
 
@@ -549,4 +565,148 @@ font-size: 32px;
 .card-blog {
   margin: auto;
   width: fit-content;
+}
+
+.client-header {
+  padding-top: 4em;
+}
+
+.section-client {
+  height: 580px;
+  background-color: #fff;
+}
+
+.client-title {
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0;
+}
+
+.client-description {
+  font-family: 'Poppins';
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+  padding-top: 1em;
+}
+
+.client-item {
+  position: relative;
+  margin-left: 10px;
+}
+
+.client-item:first-child{
+  margin-left: 0;
+}
+
+.client-items {
+  display: flex;
+  padding: 6em;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-clnt {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+  left: 38%;
+  z-index: 1;
+}
+
+.container-clnt {
+  width: 400px;
+  height: 240px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.item-clnt-description {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2em;
+  letter-spacing: 1px;
+  margin: 0 6px;
+  position: absolute;
+  top: 30%;
+}
+
+.section-footer {
+  height: 500px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  position: relative;
+  padding: 2em 4em 0 4em;
+}
+
+.footer-title {
+  margin: 0;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footer-description {
+  width: 500px;
+  height: 140px;
+  font-family: 'Poppins';
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.footer-left {
+  flex: 1 1 0;
+  padding-top: 1em ;
+}
+
+.footer-right {
+  
+}
+
+.footer-item{
+  padding-left: 3em;
+}
+
+.footer-item:first-child{
+  padding-left: 0;
+}
+
+.footer-items {
+  display: flex;
+}
+
+.list-items {
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  list-style: none;
+  line-height: 2em;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.item-title {
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-bottom {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
 }
