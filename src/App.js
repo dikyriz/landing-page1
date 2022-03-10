@@ -14,17 +14,8 @@ function App() {
   return (
     <>
       <TopBar/>
+      <Home/>
       
-      <div className="app">        
-          <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='about' element={<About/>}/>
-            <Route path='portofolio' element={<Portofolio/>}/>
-            <Route path='services' element={<Services/>}/>
-            <Route path='pricing' element={<Pricing/>}/>
-            <Route path='blog' element={<Blog/>}/>
-          </Routes>
-      </div>
     </>
   );
 }
