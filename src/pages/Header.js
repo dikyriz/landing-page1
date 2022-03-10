@@ -3,7 +3,7 @@ import { ImageBackground } from "../assets";
 
 export default function Header() {
     return (
-        <section className="section-header"> 
+        <section className="section-header" id="/"> 
             <img src={ImageBackground} alt="img-bg"  className="home-bg"/>
             <div className="header-items">
                 <h1 className = "home-title"> VICMAS <span className = "home-title-child"> DISON </span></h1>

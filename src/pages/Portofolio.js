@@ -3,7 +3,7 @@ import { CardOne, CardThree, CardTwo } from "../assets";
 
 export default function Portofolio () {
     return (
-        <section className="section-portofolio">
+        <section className="section-portofolio" id="portofolio">
                 <div className = "portofolio" >
                 <div className = "portofolio-top" >
                     <h1 className = "portofolio-title" > &#8722; My Portfolio &#8722; </h1> 

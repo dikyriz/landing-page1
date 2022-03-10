@@ -1,5 +1,3 @@
-import {Link} from "react-router-dom";
-import {CardOne, CardThree, CardTwo, IconIg, ImageBackground} from "../assets";
 import About from "./About";
 import Blog from "./Blog";
 import Client from "./Client";
