@@ -6,7 +6,7 @@ import About from './pages/About';
 import Portofolio from './pages/Portofolio';
 import Services from './pages/Services';
 import Pricing from './pages/Pricing';
-import Blog from './pages/Blog';
+import Blogs from './singlePage/Blogs';
 import {Helmet} from 'react-helmet';
 import TopBar from './topBar/TopBar';
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <TopBar/>
-      <Home/>
+      <Blogs/>
       
     </>
   );
