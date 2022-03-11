@@ -8,7 +8,7 @@ import CardTwoBlog from './image/card-2-blog-1.jpg';
 import CardThreeBlog from './image/card-3-blog-1.jpg';
 import ClientOne from './image/client/client01-1.jpg';
 import ClientTwo from './image/client/client02-1.jpg';
-import BGsinglePage from './image/bg-singlePage.jpg'; 
+import BGsinglePage from './image/bg-singlePage-1.jpg'; 
 
 export {
     ImageBackground, 
