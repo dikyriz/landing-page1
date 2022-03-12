@@ -9,13 +9,17 @@ import Pricing from './pages/Pricing';
 import Blogs from './singlePage/Blogs';
 import {Helmet} from 'react-helmet';
 import TopBar from './topBar/TopBar';
+import Header from './singlePage/Header';
+import Footer from './pages/Footer';
+import DetailBlog from './singlePage/DetailBlog';
 
 function App() {
   return (
     <>
       <TopBar/>
-      <Blogs/>
-      
+      <Header/>
+      <DetailBlog/>
+      <Footer/>
     </>
   );
 }
