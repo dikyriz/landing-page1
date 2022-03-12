@@ -1,0 +1,74 @@
+.section-detailBlog {
+    height: 1798px;
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+
+.container-detailBlog {
+    margin-bottom: 10em;
+}
+
+.title-detailBlog {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.date-detailBlog {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.img-card-detail {
+    height: 557px;
+    width: 900px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.descriptions-detail-blog {
+    width: 900px;
+    height: 585px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+.descriptions-detail-blog-child {
+    margin-top: 2em;
+}
+
+.img-picture {
+    width: 240px;
+    height: 200px;
+}
+
+.list-items-blog {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.item-blog {
+    list-style: none;
+    margin-right: 2em;
+    border: 1px solid #000;
+    padding: 6px 6px 2px 6px;
+    border-radius: 10px;
+}
+
+.item-blog:last-child {
+    margin-right: 0;
+}
+
+.pictures {
+    position: absolute;
+    left: -4.7em;
+}
