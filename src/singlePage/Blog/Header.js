@@ -1,4 +1,5 @@
-import { BGsinglePage } from "../assets";
+import { BGsinglePage } from "../../assets";
+
 
 export default function Header() {
     return (

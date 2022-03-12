@@ -1,5 +1,5 @@
-import { CardOneBlog, CardTwoBlog } from '../assets';
-import './css/detailBlog.css';
+import { CardOneBlog, CardTwoBlog } from '../../assets';
+import '../css/detailBlog.css';
 
 export default function DetailBlog() {
     return (

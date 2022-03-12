@@ -6,20 +6,17 @@ import About from './pages/About';
 import Portofolio from './pages/Portofolio';
 import Services from './pages/Services';
 import Pricing from './pages/Pricing';
-import Blogs from './singlePage/Blogs';
 import {Helmet} from 'react-helmet';
 import TopBar from './topBar/TopBar';
-import Header from './singlePage/Header';
 import Footer from './pages/Footer';
-import DetailBlog from './singlePage/DetailBlog';
+import DetailBlog from './singlePage/Blog/DetailBlog';
+import SinglePage from './singlePage/Blog/SinglePage';
 
 function App() {
   return (
     <>
       <TopBar/>
-      <Header/>
-      <DetailBlog/>
-      <Footer/>
+      <SinglePage/>
     </>
   );
 }

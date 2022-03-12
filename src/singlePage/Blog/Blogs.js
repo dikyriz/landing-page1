@@ -1,5 +1,5 @@
 import { CardOneBlog, CardThreeBlog, CardTwoBlog } from '../assets';
-import './css/blogs.css';
+import '../css/blogs.css';
 
 export default function Blogs() {
     return (
