@@ -1,0 +1,75 @@
+.portofolio-singlePage {
+ height: 1301px;
+ position: relative;
+}
+
+.title-singlePage-portofolio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.item-singlePage-portofolio {
+    list-style: none;
+    margin-right: 2em;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 13px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: px;
+}
+
+.item-singlePage-portofolio:first-child {
+    padding: 11px 28px 8px 23px;
+    border-radius: 30px;
+}
+
+.item-singlePage-portofolio:last-child {
+    margin-right: 0;
+}
+
+.list-item-singlePage-portofolio {
+    display: flex;
+    padding: 0;
+}
+
+.img-card-sp-pf {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-sp-pf {
+    background-color: #000;
+    color: #fff;
+    width: 482px;
+    height: 143px;
+    border-radius: 10px;
+    position: absolute;
+    top: 28em;
+    left: 7.4em;
+}
+
+.title-card-sp {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.description-card-sp {
+    font-family: 'Poppins',
+    sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+.card-singlePage-portofolio {
+    display: flex;
+    flex-direction: column;
+}
