@@ -10,7 +10,7 @@ import {Helmet} from 'react-helmet';
 import TopBar from './topBar/TopBar';
 import Footer from './pages/Footer';
 import DetailBlog from './singlePage/Blog/DetailBlog';
-import SinglePage from './singlePage/Blog/SinglePage';
+import SinglePage from './singlePage/Portofolio/SinglePage';
 
 function App() {
   return (
