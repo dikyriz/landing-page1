@@ -1,5 +1,6 @@
 import { CardOne } from '../../assets';
 import '../css/portofolio.css';
+import Post from './Post';
 
 export default function Portofolio () {
     return (
@@ -12,34 +13,10 @@ export default function Portofolio () {
                 <li className='item-singlePage-portofolio'>UI Design</li>
             </ul>
             <div className='card-singlePage-portofolio'>
-                <div className='item-card-singlePage-portofolio'>
-                    <img src={CardOne} alt="card-portofolio" className='img-card-sp-pf'/>
-                    <div className='container-sp-pf'>
-                        <h1 className='title-card-sp'>Barn Fashion</h1>
-                        <p className='description-card-sp'>UI Design</p>
-                    </div>
-                </div>
-                 <div className='item-card-singlePage-portofolio'>
-                    <img src={CardOne} alt="card-portofolio" className='img-card-sp-pf'/>
-                    <div className='container-sp-pf-2'>
-                        <h1 className='title-card-sp'>Header Code</h1>
-                        <p className='description-card-sp'>Web Development</p>
-                    </div>
-                </div>
-                 <div className='item-card-singlePage-portofolio'>
-                    <img src={CardOne} alt="card-portofolio" className='img-card-sp-pf'/>
-                    <div className='container-sp-pf-3'>
-                        <h1 className='title-card-sp'>Task Scheduling</h1>
-                        <p className='description-card-sp'>Product Design</p>
-                    </div>
-                </div>
-                 <div className='item-card-singlePage-portofolio'>
-                    <img src={CardOne} alt="card-portofolio" className='img-card-sp-pf'/>
-                    <div className='container-sp-pf-4'>
-                        <h1 className='title-card-sp'>Wireframe Mobile Apps</h1>
-                        <p className='description-card-sp'>UI Design</p>
-                    </div>
-                </div>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
             </div>
         </section>
     );
