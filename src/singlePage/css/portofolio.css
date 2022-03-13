@@ -74,3 +74,46 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.item-card-singlePage-portofolio {
+    padding-right: 3em;
+    padding-bottom: 6em;
+}
+
+.item-card-singlePage-portofolio:last-child {
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.container-sp-pf-2 {
+    background-color: #000;
+    color: #fff;
+    width: 482px;
+    height: 143px;
+    border-radius: 10px;
+    position: absolute;
+    top: 28em;
+    right: 6.3em;
+}
+
+.container-sp-pf-3 {
+    background-color: #000;
+    color: #fff;
+    width: 482px;
+    height: 143px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 13em;
+    left: 7.4em;
+}
+
+.container-sp-pf-4 {
+    background-color: #000;
+    color: #fff;
+    width: 482px;
+    height: 143px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 13em;
+    right: 6.3em;
+}
