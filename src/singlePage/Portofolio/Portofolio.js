@@ -21,21 +21,21 @@ export default function Portofolio () {
                 </div>
                  <div className='item-card-singlePage-portofolio'>
                     <img src={CardOne} alt="card-portofolio" className='img-card-sp-pf'/>
-                    <div className='container-sp-pf'>
+                    <div className='container-sp-pf-2'>
                         <h1 className='title-card-sp'>Header Code</h1>
                         <p className='description-card-sp'>Web Development</p>
                     </div>
                 </div>
                  <div className='item-card-singlePage-portofolio'>
                     <img src={CardOne} alt="card-portofolio" className='img-card-sp-pf'/>
-                    <div className='container-sp-pf'>
+                    <div className='container-sp-pf-3'>
                         <h1 className='title-card-sp'>Task Scheduling</h1>
                         <p className='description-card-sp'>Product Design</p>
                     </div>
                 </div>
                  <div className='item-card-singlePage-portofolio'>
                     <img src={CardOne} alt="card-portofolio" className='img-card-sp-pf'/>
-                    <div className='container-sp-pf'>
+                    <div className='container-sp-pf-4'>
                         <h1 className='title-card-sp'>Wireframe Mobile Apps</h1>
                         <p className='description-card-sp'>UI Design</p>
                     </div>
