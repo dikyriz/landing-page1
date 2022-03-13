@@ -1,12 +1,17 @@
 .portofolio-singlePage {
  height: 1301px;
- position: relative;
+ padding: 3em;
 }
 
 .title-singlePage-portofolio {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 600;
+}
+
+.list-item-singlePage-portofolio {
+    margin: 0;
+    margin-top: 3.4em;
 }
 
 .item-singlePage-portofolio {
@@ -50,7 +55,7 @@
     height: 143px;
     border-radius: 10px;
     position: absolute;
-    top: 28em;
+    top: 19em;
     left: 7.4em;
 }
 
@@ -73,16 +78,11 @@
     flex: 9;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 4em;
 }
 
 .item-card-singlePage-portofolio {
-    padding-right: 3em;
-    padding-bottom: 6em;
-}
-
-.item-card-singlePage-portofolio:last-child {
-    padding-right: 0;
-    padding-bottom: 0;
+    position: relative;
 }
 
 .container-sp-pf-2 {
