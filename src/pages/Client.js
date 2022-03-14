@@ -1,4 +1,5 @@
 import { ClientOne, ClientTwo } from "../assets";
+import './css/client.css';
 
 export default function Client() {
     return (
