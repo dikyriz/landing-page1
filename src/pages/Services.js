@@ -1,5 +1,7 @@
 import { CardThree } from "../assets";
 import { Link } from "react-router-dom";
+import './css/services.css';
+import './css/pricing.css';
 
 export default function Services () {
     return (
