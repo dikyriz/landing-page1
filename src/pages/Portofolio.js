@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { CardOne, CardThree, CardTwo } from "../assets";
+import './css/portofolio.css';
 
 export default function Portofolio () {
     return (

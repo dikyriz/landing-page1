@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ImageBackground } from "../assets";
+import './css/header.css';
 
 export default function Header() {
     return (
