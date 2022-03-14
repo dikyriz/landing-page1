@@ -1,4 +1,5 @@
 import { BGsinglePage } from "../../assets";
+import '../css/header.css';
 
 export default function Header () {
     return (
