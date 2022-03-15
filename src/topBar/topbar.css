@@ -1,0 +1,36 @@
+.nav {
+    background-color: #000;
+    text-align: right;
+    margin-top: 0;
+    padding: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-item {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #999;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav-logo {
+    color: #fff;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

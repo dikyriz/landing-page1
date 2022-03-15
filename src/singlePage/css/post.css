@@ -1,0 +1,13 @@
+.post {
+    padding-right: 3em;
+    padding-bottom: 5em;
+}
+
+.post:last-child {
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.post:nth-child(2n+2) {
+    padding-right: 0;
+}
