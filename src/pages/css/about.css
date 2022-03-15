@@ -1,0 +1,58 @@
+.section-about {
+    background-color: #110E0E;
+    margin: 0;
+    padding: 30px 6em;
+    height: 580px;
+}
+
+.about-item-header {
+    float: right;
+}
+
+.about-title {
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-right: 13em;
+    padding-top: 1em;
+}
+
+.about-description {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 28em;
+    line-height: 42px;
+    font-size: 22px;
+}
+
+.about-description-child {
+    display: flex;
+    padding-top: 2em;
+    letter-spacing: 0.3px;
+}
+
+.about-item {
+    margin: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.about-item-title {
+    margin: 0;
+    font-size: 68px;
+    flex: 1 1 0;
+    letter-spacing: 3px;
+    padding-top: 1em;
+}
+
+
+.about-item-description {
+    display: flex;
+    margin: 0;
+    font-size: 24px;
+    width: 12px;
+    font-weight: 200;
+}

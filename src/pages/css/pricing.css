@@ -1,0 +1,55 @@
+.section-pricing {
+    color: #fff;
+    text-align: center;
+    padding: 1em 0 6em 0;
+}
+
+.pricing-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+.pricing-description {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+
+}
+
+.pricing-description-child {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5em;
+}
+
+.arrow-pricing {
+    padding-left: 1em;
+}
+
+.btn-contact-pricing {
+    background-color: #fff;
+    border: 2px solid #0F65E5;
+    font-size: 16px;
+}
+
+.btn-contact-pricing a {
+    text-decoration: none;
+    color: #0F65E5;
+}
+
+.btn-order {
+    background-color: #0F65E5;
+    border: 2px solid #0F65E5;
+    margin-left: 2em;
+    font-size: 16px;
+}
+
+.btn-order a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button {
+    padding-top: 2em;
+}
