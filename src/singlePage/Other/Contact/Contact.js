@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Contact () {
+    const navigate = useNavigate();
+
     return (
         <section className="section-contact-singlePage">
             <h1 className="title-contact-singlePage">

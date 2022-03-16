@@ -21,8 +21,9 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/:contact' element={<SinglePage/>} />
+        <Route path='/:slug' element={<SinglePage/>} />
         <Route path='portofolio' element={<SinglePageP/>} />
+        <Route path='portofolio/:slug' element={<DetailPortofolio/>} />
       </Routes>
       <Footer/>
     </>

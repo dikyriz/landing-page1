@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { CardOne } from '../../assets';
 import '../css/detailPortofolio.css';
 import TopBarSP from '../topBarSP/TopBarSP';
@@ -12,6 +12,7 @@ export default function DetailPortofolio() {
     const [data, setData] = useState(true);
     const params = useParams();
     console.log(params.slug);
+    const navigate = useNavigate();
 
     useEffect(function() {
 
@@ -28,8 +29,9 @@ export default function DetailPortofolio() {
 
     return (
         <>
+        <TopBarSP/>
         <section className={data ? 'section-detailPortofolio' : 'section-change-detailPortofolio'}>
-            <h1 className='title-detailPortofolio'>Wireframe Mobile Apps</h1>
+            <h1 className='title-detailPortofolio'><span className='go-back' onClick={() => {navigate('/portofolio')}}><i class="fa-solid fa-arrow-left"></i></span>Wireframe Mobile Apps</h1>
             <img src={CardOne} alt='img-portofolio' className='img-detailPortofolio'/>
             <ul className='list-item-detailPortofolio'>
                 <li className={data ? 'btn-detailPortofolio' : 'item-detailPortofolio'} onClick={() => setData(true)}>Description</li>

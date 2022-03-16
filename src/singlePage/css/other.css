@@ -140,5 +140,19 @@
     margin: auto;
 }
 
+.go-back-ctc{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: rgba(226, 224, 224, 0.973);
+    float: left;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+ .go-back-ctc:hover {
+     color: #1d1f1f;
+ }
+
 
 
