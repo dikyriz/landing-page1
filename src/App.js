@@ -10,13 +10,14 @@ import {Helmet} from 'react-helmet';
 import TopBar from './topBar/TopBar';
 import Footer from './pages/Footer';
 import DetailBlog from './singlePage/Blog/DetailBlog';
-import SinglePage from './singlePage/Pricing/SinglePage';
+import SinglePage from './singlePage/Other/SinglePage';
+import TermConditions from './singlePage/Other/TermConditions/TermConditions';
 
 function App() {
   return (
     <>
       <TopBar/>
-      <SinglePage/>
+      <Home/>
     </>
   );
 }

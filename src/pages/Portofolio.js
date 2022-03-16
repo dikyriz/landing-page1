@@ -4,7 +4,8 @@ import './css/portofolio.css';
 
 export default function Portofolio () {
     return (
-        <section className="section-portofolio" id="portofolio">
+        <section className="section-portofolio">
+                <a className="anchor2" id="portofolio" />
                 <div className = "portofolio" >
                 <div className = "portofolio-top" >
                     <h1 className = "portofolio-title" > &#8722; My Portfolio &#8722; </h1> 

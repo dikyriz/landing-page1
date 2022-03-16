@@ -5,8 +5,9 @@ import './css/pricing.css';
 
 export default function Services () {
     return (
-        <section className="sections" >
-            <div className="section-services" id="services">
+        <section className="sections">
+            <div className="section-services">
+            <a className="anchor" id="services"/>
             <h1 className = "services-title" > We Can Help You </h1> 
                 <p className = "services-description" > We help make your dreams come true through 
                 <span className = "services-description-child" > innovation and creative perspectives.</span> 
@@ -47,7 +48,8 @@ export default function Services () {
                     </ul> 
                 </div>
             </div>
-            <div className="section-pricing" id="pricing">
+            <div className="section-pricing">
+                <a className="anchor" id="pricing" />
                 <h1 className="pricing-title">Have a Project on Your Mind</h1>
                 <p className="pricing-description">Don't have a website yet ? Want to have a website for
                 product branding ?<span className="pricing-description-child">Confused where to do

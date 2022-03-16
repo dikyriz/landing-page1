@@ -2,7 +2,8 @@ import './css/about.css';
 
 export default function About () {
     return (
-        <section className="section-about" id="about">
+        <section className="section-about" >
+            <a className='anchor' id="about"/>
             <div className = "about-item-header" >
                 <h1 className = "about-title">&#8722; About Me &#8722;</h1>
                 <p className = "about-description" >

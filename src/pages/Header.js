@@ -4,7 +4,8 @@ import './css/header.css';
 
 export default function Header() {
     return (
-        <section className="section-header" id="/"> 
+        <section className="section-header">
+            <a className="anchor" id="/" /> 
             <img src={ImageBackground} alt="img-bg"  className="home-bg"/>
             <div className="header-items">
                 <h1 className = "home-title"> VICMAS <span className = "home-title-child"> DISON </span></h1>
