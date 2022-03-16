@@ -101,9 +101,12 @@
     text-decoration: none;
     color: #fff;
     text-align: center;
+    box-shadow: 0px 0px 3px rgb(14, 13, 13)
 }
 
-.btn-card a {}
+.btn-card:hover {
+    background-color: #0048b4;
+}
 
 .arrow-card {
     margin-left: 0.7em;
