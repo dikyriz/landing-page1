@@ -1,12 +1,17 @@
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { CardOne } from '../../assets';
 import '../css/detailPortofolio.css';
+import TopBarSP from '../topBarSP/TopBarSP';
 import DescriptionDetail from './DescriptionDetail';
 import ListImageDetail from './ListImageDetail';
+
 
 export default function DetailPortofolio() {
     // const [images, setImages] = useState (false);
     const [data, setData] = useState(true);
+    const params = useParams();
+    console.log(params.slug);
 
     useEffect(function() {
 
@@ -22,6 +27,7 @@ export default function DetailPortofolio() {
     });
 
     return (
+        <>
         <section className={data ? 'section-detailPortofolio' : 'section-change-detailPortofolio'}>
             <h1 className='title-detailPortofolio'>Wireframe Mobile Apps</h1>
             <img src={CardOne} alt='img-portofolio' className='img-detailPortofolio'/>
@@ -34,5 +40,6 @@ export default function DetailPortofolio() {
                 
             </div>
         </section>
+        </>
     );
 }

@@ -11,13 +11,20 @@ import TopBar from './topBar/TopBar';
 import Footer from './pages/Footer';
 import DetailBlog from './singlePage/Blog/DetailBlog';
 import SinglePage from './singlePage/Other/SinglePage';
+import SinglePageP from './singlePage/Portofolio/SinglePage';
 import TermConditions from './singlePage/Other/TermConditions/TermConditions';
+import DetailPortofolio from './singlePage/Portofolio/DetailPortofolio';
+import TopBarSP from './singlePage/topBarSP/TopBarSP';
 
 function App() {
   return (
     <>
-      <TopBar/>
-      <Home/>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/:contact' element={<SinglePage/>} />
+        <Route path='portofolio' element={<SinglePageP/>} />
+      </Routes>
+      <Footer/>
     </>
   );
 }

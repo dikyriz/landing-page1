@@ -1,5 +1,6 @@
 import { CardOne } from "../../assets";
 import '../css/post.css';
+import TopBarSP from "../topBarSP/TopBarSP";
 
 export default function Post() {
     return (

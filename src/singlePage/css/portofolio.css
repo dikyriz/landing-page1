@@ -83,6 +83,7 @@
 
 .item-card-singlePage-portofolio {
     position: relative;
+    cursor: pointer;
 }
 
 .container-sp-pf-2 {

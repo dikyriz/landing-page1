@@ -1,3 +1,4 @@
+import TopBar from "../topBar/TopBar";
 import About from "./About";
 import Blog from "./Blog";
 import Client from "./Client";
@@ -11,6 +12,7 @@ export default function Home() {
     return ( 
         <section className = "section-home">
         
+        <TopBar/>
         <Header/>
         <About/>
         <Portofolio/>
@@ -18,7 +20,7 @@ export default function Home() {
         <Pricing/>
         <Client/>
         <Blog/>
-        <Footer/>
+        
     
     </section>
 
