@@ -9,7 +9,7 @@ import Pricing from './pages/Pricing';
 import {Helmet} from 'react-helmet';
 import TopBar from './topBar/TopBar';
 import Footer from './pages/Footer';
-import DetailBlog from './singlePage/Blog/DetailBlog';
+import SinglePageB from './singlePage/Blog/Blogs';
 import SinglePage from './singlePage/Other/SinglePage';
 import SinglePageP from './singlePage/Portofolio/SinglePage';
 import TermConditions from './singlePage/Other/TermConditions/TermConditions';
@@ -26,6 +26,7 @@ function App() {
         <Route path='portofolio' element={<SinglePageP/>} />
         <Route path='portofolio/:slug' element={<DetailPortofolio/>} />
         <Route path='pricing' element={<SinglePagePr/>} />
+        <Route path='blogs' element={<SinglePageB/>} />
       </Routes>
       <Footer/>
     </>
