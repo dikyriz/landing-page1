@@ -56,8 +56,8 @@ export default function Services () {
                 it. Trust us to build your website.</span> 
                 </p>
                 <div className="button">
-                    <button className="btn btn-contact-pricing"><Link to="/">Contact Me<span className="arrow-pricing">&#8722;&gt;</span></Link></button>
-                    <button className="btn btn-order"><Link to="/">Order Now<span className="arrow-pricing">&#8722;&gt;</span></Link></button>
+                    <Link to="/contact" className="btn btn-contact-pricing">Contact Me<span className="arrow-pricing">&#8722;&gt;</span></Link>
+                    <Link to="pricing" className="btn btn-order">Order Now<span className="arrow-pricing">&#8722;&gt;</span></Link>
                 </div>
             </div>
             

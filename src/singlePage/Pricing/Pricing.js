@@ -1,6 +1,9 @@
+import { useNavigate } from 'react-router-dom';
 import '../css/pricing.css';
 
 export default function Pricing () {
+    const navigate = useNavigate();
+
     return (
         <section className='pricing-singlePage'>
             <h1 className='title-pricing-singlePage'>Flexibel Plans</h1>
@@ -18,7 +21,7 @@ export default function Pricing () {
                             <li className='item-card-pricing-singlePage'>Chat Support</li>
                             <li className='item-card-pricing-singlePage'>Unlimited Subdomains</li>
                             <div className='btn-singlePage'>
-                                <p className='btn-card-pricing-singlePage'>Get The Offer Now</p>
+                                <p className='btn-card-pricing-singlePage' onClick={() => {navigate('/contact')}}>Get The Offer Now</p>
                             </div>
                         </li>
                     </ul>

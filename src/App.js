@@ -15,6 +15,7 @@ import SinglePageP from './singlePage/Portofolio/SinglePage';
 import TermConditions from './singlePage/Other/TermConditions/TermConditions';
 import DetailPortofolio from './singlePage/Portofolio/DetailPortofolio';
 import TopBarSP from './singlePage/topBarSP/TopBarSP';
+import SinglePagePr from './singlePage/Pricing/SinglePage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/:slug' element={<SinglePage/>} />
         <Route path='portofolio' element={<SinglePageP/>} />
         <Route path='portofolio/:slug' element={<DetailPortofolio/>} />
+        <Route path='pricing' element={<SinglePagePr/>} />
       </Routes>
       <Footer/>
     </>

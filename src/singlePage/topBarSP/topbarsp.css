@@ -14,11 +14,11 @@
 }
 
 .nav-single a:hover {
-    color: #fff;
+    color: rgb(185, 185, 185);
 }
 
 .nav-logo-single {
-    color: #fff;
+    color: #2d3033;
     float: left;
     margin: 0;
     font-size: 20px;
