@@ -1,11 +1,16 @@
+import { useNavigate } from 'react-router-dom';
 import { CardOneBlog, CardTwoBlog } from '../../assets';
 import '../css/detailBlog.css';
+import TopBarSP from '../topBarSP/TopBarSP';
 
 export default function DetailBlog() {
+    const navigate = useNavigate();
     return (
+        <>
+        <TopBarSP/>
         <section className='section-detailBlog'>
             <div className='container-detailBlog'>
-                <h1 className='title-detailBlog'>Stages of Making a Visual Design</h1>
+                <h1 className='title-detailBlog'><span className='go-back' onClick={() => {navigate('/blogs')}}><i class="fa-solid fa-arrow-left"></i></span>Stages of Making a Visual Design</h1>
                 <p className='date-detailBlog'>18 November 2021  -  Admin</p>
                 <img src={CardOneBlog} alt='card-detail' className='img-card-detail'/>
                 <p className='descriptions-detail-blog'>
@@ -43,5 +48,6 @@ export default function DetailBlog() {
                 </ul>
             </div>
         </section>
+        </>
     );
 }
