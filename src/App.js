@@ -9,13 +9,14 @@ import Pricing from './pages/Pricing';
 import {Helmet} from 'react-helmet';
 import TopBar from './topBar/TopBar';
 import Footer from './pages/Footer';
-import SinglePageB from './singlePage/Blog/Blogs';
+import SinglePageB from './singlePage/Blog/SinglePage';
 import SinglePage from './singlePage/Other/SinglePage';
 import SinglePageP from './singlePage/Portofolio/SinglePage';
 import TermConditions from './singlePage/Other/TermConditions/TermConditions';
 import DetailPortofolio from './singlePage/Portofolio/DetailPortofolio';
 import TopBarSP from './singlePage/topBarSP/TopBarSP';
 import SinglePagePr from './singlePage/Pricing/SinglePage';
+import DetailBlog from './singlePage/Blog/DetailBlog';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='portofolio/:slug' element={<DetailPortofolio/>} />
         <Route path='pricing' element={<SinglePagePr/>} />
         <Route path='blogs' element={<SinglePageB/>} />
+        <Route path='blogs/:slug' element={<DetailBlog/>} />
       </Routes>
       <Footer/>
     </>
