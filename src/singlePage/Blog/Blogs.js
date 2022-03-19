@@ -1,7 +1,9 @@
-import { CardOneBlog, CardThreeBlog, CardTwoBlog } from '../assets';
+import { useNavigate } from 'react-router-dom';
+import { CardOneBlog, CardThreeBlog, CardTwoBlog } from '../../assets';
 import '../css/blogs.css';
 
 export default function Blogs() {
+    const navigate = useNavigate();
     return (
         <section className="section-blogs">
             <div className='card-blogs'>
@@ -14,7 +16,8 @@ export default function Blogs() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 ad minim veniam, quis nostrud exercitation ullamco laboris
-                                aliquip ex ea commodo consequat.... <span className='descriptions-card-blogs-child'>Read More</span>
+                                aliquip ex ea commodo consequat.... 
+                                <span className='descriptions-card-blogs-child' onClick={() => {navigate('detailBlog')}}>&nbsp;Read More</span>
                             </p>
                         </div>
                     </div>
@@ -28,7 +31,8 @@ export default function Blogs() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 ad minim veniam, quis nostrud exercitation ullamco laboris
-                                aliquip ex ea commodo consequat.... <span className='descriptions-card-blogs-child'>Read More</span>
+                                aliquip ex ea commodo consequat....
+                                <span className='descriptions-card-blogs-child' onClick={() => {navigate('detailBlog')}}>&nbsp;Read More</span>
                             </p>
                         </div>
                     </div>
@@ -42,7 +46,8 @@ export default function Blogs() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 ad minim veniam, quis nostrud exercitation ullamco laboris
-                                aliquip ex ea commodo consequat.... <span className='descriptions-card-blogs-child'>Read More</span>
+                                aliquip ex ea commodo consequat.... 
+                                <span className='descriptions-card-blogs-child' onClick={() => {navigate('detailBlog')}}>&nbsp;Read More</span>
                             </p>
                         </div>
                     </div>
