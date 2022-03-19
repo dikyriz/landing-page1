@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import { CardOneBlog, CardThreeBlog, CardTwoBlog } from "../assets";
 import './css/blog.css';
 
 export default function Blog () {
+    const navigate = useNavigate();
+
     return (
         <section className="section-blog">
             <a className="anchor" id="blog" />
@@ -44,6 +47,9 @@ export default function Blog () {
                     </div>
                 </div>
             </div>                
+            <div className="more-blogs-post">
+                <p className="more-blogs" onClick={() => {navigate('blogs')}}>Read More Blogs</p>
+            </div>
         </section>
     );
 }
