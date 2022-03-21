@@ -13,7 +13,7 @@ export default function Blog () {
                 <p className="blog-description">Latest news and articles</p>
             </div>
             <div className="card-blog">
-                <div className="card-1-blog">
+                <div className="card-1-blog" onClick={() => {navigate('blogs/detailBlog')}}>
                     <img src={CardOneBlog} alt="card-1-blog" className="img-blog"/>
                     <div className="container-blog">
                     <h4 className="card-title-blog">Stages of Making a Vi..</h4>
@@ -24,7 +24,7 @@ export default function Blog () {
                     </p>
                     </div>
                 </div>
-                <div className="card-1-blog">
+                <div className="card-1-blog" onClick={() => {navigate('blogs/detailBlog')}}>
                     <img src={CardTwoBlog} alt="card-2-blog" className="img-blog" />
                     <div className="container-blog">
                     <h4 className="card-title-blog">How to Make an Attr..</h4>
@@ -35,7 +35,7 @@ export default function Blog () {
                     </p>
                     </div>
                 </div>
-                <div className="card-1-blog">
+                <div className="card-1-blog" onClick={() => {navigate('blogs/detailBlog')}}>
                     <img src={CardThreeBlog} alt="card-3-blog" className="img-blog"/>
                     <div className="container-blog">
                     <h4 className="card-title-blog">Increase Visitor Tra..</h4>
@@ -48,7 +48,7 @@ export default function Blog () {
                 </div>
             </div>                
             <div className="more-blogs-post">
-                <p className="more-blogs" onClick={() => {navigate('blogs')}}>Read More Blogs</p>
+                <p className="more-blogs" onClick={() => {navigate('blogs')}}>See More Blogs</p>
             </div>
         </section>
     );
