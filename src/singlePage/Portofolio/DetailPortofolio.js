@@ -16,6 +16,8 @@ export default function DetailPortofolio() {
 
     useEffect(function() {
 
+        window.scrollTo(0, 0)
+
         if (data) {
             // setImages(false);
             console.log('data = ', data);
@@ -25,7 +27,7 @@ export default function DetailPortofolio() {
         //     setData(false);
         //     console.log('images = ', images);
         // }
-    });
+    }, []);
 
     return (
         <>
