@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Contact () {
     const navigate = useNavigate();
+
+    useEffect(function (){
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <section className="section-contact-singlePage">
