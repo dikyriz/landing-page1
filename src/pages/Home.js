@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import TopBar from "../topBar/TopBar";
 import About from "./About";
 import Blog from "./Blog";
@@ -9,6 +10,11 @@ import Pricing from "./Pricing";
 import Services from "./Services";
 
 export default function Home() {
+    
+    useEffect(function (){
+        window.scrollTo(0, 0)
+    }, [])
+
     return ( 
         <section className = "section-home">
         
