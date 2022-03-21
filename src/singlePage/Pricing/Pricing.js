@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/pricing.css';
 
 export default function Pricing () {
     const navigate = useNavigate();
+
+    useEffect(function (){
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <section className='pricing-singlePage'>
