@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CardOneBlog, CardTwoBlog } from '../../assets';
 import '../css/detailBlog.css';
@@ -5,6 +6,10 @@ import TopBarSP from '../topBarSP/TopBarSP';
 
 export default function DetailBlog() {
     const navigate = useNavigate();
+
+    useEffect(function() {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
         <TopBarSP/>

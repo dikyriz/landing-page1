@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CardOneBlog, CardThreeBlog, CardTwoBlog } from '../../assets';
 import '../css/blogs.css';
 
 export default function Blogs() {
     const navigate = useNavigate();
+
+    useEffect(function (){
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <section className="section-blogs">
             <div className='card-blogs'>
